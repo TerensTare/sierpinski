@@ -1,0 +1,20 @@
+{
+    "name": "sierpinski-triangle",
+    "version-string": "0.1.0",
+    "maintainers": [
+        "Terens Tare"
+    ],
+    "license": "MIT",
+    "description": "A program that displays a Sierpinski triangle",
+    "dependencies": [
+        "sdl2",
+        {
+            "name": "imgui",
+            "features": [
+                "docking-experimental",
+                "sdl2-binding",
+                "sdl2-renderer-binding"
+            ]
+        }
+    ]
+}
